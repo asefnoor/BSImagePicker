@@ -492,12 +492,14 @@
 		55E273EF1BE004F2006006A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Asif Noor (N7587D9M8Z)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = BSImagePicker_UI_Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "se.backslashed.BSImagePicker-UI-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31ae9827-fc33-4887-b8de-ca66f666e92e";
 				TEST_TARGET_NAME = BSImagePicker_Example;
 				USES_XCTRUNNER = YES;
 			};
@@ -506,11 +508,13 @@
 		55E273F01BE004F2006006A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Asif Noor (N7587D9M8Z)";
 				INFOPLIST_FILE = BSImagePicker_UI_Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "se.backslashed.BSImagePicker-UI-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31ae9827-fc33-4887-b8de-ca66f666e92e";
 				TEST_TARGET_NAME = BSImagePicker_Example;
 				USES_XCTRUNNER = YES;
 			};
@@ -610,8 +614,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = se.backslashed.BSImagePickerExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsconz.cvrobo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31ae9827-fc33-4887-b8de-ca66f666e92e";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -628,8 +633,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = se.backslashed.BSImagePickerExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsconz.cvrobo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31ae9827-fc33-4887-b8de-ca66f666e92e";
 			};
 			name = Release;
 		};
@@ -638,6 +644,7 @@
 			baseConfigurationReference = 48917209F1528320CD70D7F6 /* Pods-BSImagePicker_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Asif Noor (N7587D9M8Z)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -646,6 +653,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31ae9827-fc33-4887-b8de-ca66f666e92e";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSImagePicker_Example.app/BSImagePicker_Example";
 			};
 			name = Debug;
@@ -655,10 +663,12 @@
 			baseConfigurationReference = BA97266BA17B3090F26F6971 /* Pods-BSImagePicker_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Asif Noor (N7587D9M8Z)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31ae9827-fc33-4887-b8de-ca66f666e92e";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSImagePicker_Example.app/BSImagePicker_Example";
 			};
 			name = Release;
@@ -673,6 +683,7 @@
 				55E273F01BE004F2006006A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "BSImagePicker" */ = {
 			isa = XCConfigurationList;
