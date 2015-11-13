@@ -20,6 +20,20 @@
                ReferencedContainer = "container:BSImagePicker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "55E273E71BE004F2006006A7"
+               BuildableName = "BSImagePicker_UI_Tests.xctest"
+               BlueprintName = "BSImagePicker_UI_Tests"
+               ReferencedContainer = "container:BSImagePicker.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -35,6 +49,16 @@
                BlueprintIdentifier = "55E273E71BE004F2006006A7"
                BuildableName = "BSImagePicker_UI_Tests.xctest"
                BlueprintName = "BSImagePicker_UI_Tests"
+               ReferencedContainer = "container:BSImagePicker.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "27DABEEA1BF61CB10063B524"
+               BuildableName = "BSImagePicker_ExampleTests.xctest"
+               BlueprintName = "BSImagePicker_ExampleTests"
                ReferencedContainer = "container:BSImagePicker.xcodeproj">
             </BuildableReference>
          </TestableReference>
