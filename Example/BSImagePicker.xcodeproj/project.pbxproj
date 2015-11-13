@@ -497,7 +497,7 @@
 				INFOPLIST_FILE = BSImagePicker_UI_Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "se.backslashed.BSImagePicker-UI-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "31ae9827-fc33-4887-b8de-ca66f666e92e";
 				TEST_TARGET_NAME = BSImagePicker_Example;
@@ -512,7 +512,7 @@
 				INFOPLIST_FILE = BSImagePicker_UI_Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "se.backslashed.BSImagePicker-UI-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "31ae9827-fc33-4887-b8de-ca66f666e92e";
 				TEST_TARGET_NAME = BSImagePicker_Example;
@@ -608,7 +608,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = BSImagePicker_Example.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BSImagePicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -627,7 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = BSImagePicker_Example.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BSImagePicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -651,7 +651,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "31ae9827-fc33-4887-b8de-ca66f666e92e";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSImagePicker_Example.app/BSImagePicker_Example";
@@ -666,7 +666,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Asif Noor (N7587D9M8Z)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "31ae9827-fc33-4887-b8de-ca66f666e92e";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSImagePicker_Example.app/BSImagePicker_Example";
